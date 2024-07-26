@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #dfdfdf;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 440px;
+  height: 480px;
+  padding: 30px;
+}
+.header {
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+.header h2 {
+  color: #333;
+  font-size: 30px;
+  font-weight: 600;
+}
+.box #email,
+.box #password {
+  width: 100%;
+  height: 60px;
+  font-size: 17px;
+  padding: 0 25px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+
+  border: none;
+  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.05);
+
+  outline: none;
+  transition: 0.3s;
+}
+
+::placeholder {
+  font-weight: 500;
+  color: #222;
+}
+#email:focus,
+#password:focus {
+  width: 105%;
+}
+#submitBox {
+  position: relative;
+}
+#submit {
+  width: 100%;
+  height: 60px;
+  background: #222;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 3s;
+  text-align: center;
+  color: #fff;
+}
+.message {
+  position: absolute;
+  top: 100px;
+}
+.red {
+  border: 1px red solid;
+  background: #fc8f8f;
+  color: #ff0000;
+  width: 40%;
+  height: 60px;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 110%;
+}
+.green {
+  border: 2px green solid;
+  background: #47ff9a2a;
+  color: green;
+  width: 40%;
+  height: 60px;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 110%;
+}
