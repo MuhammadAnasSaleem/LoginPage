@@ -29,8 +29,7 @@ body {
   font-weight: 600;
 }
 .box #email,
-.box #password,
-.box #name {
+.box #password {
   width: 100%;
   height: 60px;
   font-size: 17px;
@@ -68,7 +67,8 @@ body {
   text-align: center;
   color: #fff;
 }
-.message {
-  position: absolute;
-  top: 100px;
+#message {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  text-align: center;
 }

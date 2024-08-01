@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login-Page</title>
+    <script src="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,12 +23,14 @@
         </div>
         <div class="box">
             <form class="form">
+                <input type="text" placeholder="Enter your Full Name" id="name">
                 <input placeholder="Email" type="email" id="email">
                 <input placeholder="Password" type="password" id="password">
-                <div class="submitBox">
-                    <button id="submit" type="submit">Done</button>
-                </div>
+
+                <button id="submit" type="submit">Done</button>
+
             </form>
+            <div id="message">already have a account <a href="./login.html">Login</a></div>
         </div>
     </div>
 
@@ -34,7 +38,7 @@
 
 
 
-    <p class="message"></p>
+
     <script type="module" src="../scripts/SignUp.js"></script>
 </body>
 

@@ -29,7 +29,8 @@ body {
   font-weight: 600;
 }
 .box #email,
-.box #password {
+.box #password,
+.box #name {
   width: 100%;
   height: 60px;
   font-size: 17px;
@@ -49,12 +50,13 @@ body {
   color: #222;
 }
 #email:focus,
-#password:focus {
+#password:focus,
+#name:focus {
   width: 105%;
 }
-#submitBox {
+/* #submitBox {
   position: relative;
-}
+} */
 #submit {
   width: 100%;
   height: 60px;
@@ -66,7 +68,8 @@ body {
   text-align: center;
   color: #fff;
 }
-.message {
-  position: absolute;
-  top: 100px;
+#message {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  text-align: center;
 }
