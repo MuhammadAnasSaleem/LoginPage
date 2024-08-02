@@ -7,7 +7,7 @@ onAuthStateChanged(auth, (user) => {
     userEmailDiv.innerText = user.email;
   } else {
     console.log("user is signedout");
-    window.location = "/Pages/login.html";
+    window.location = "/index.html";
   }
 });
 logoutBtn.addEventListener("click", async () => {
